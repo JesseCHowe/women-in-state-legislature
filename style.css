@@ -1,0 +1,57 @@
+* {
+  color: #333;
+  font-family: Consolas, courier;
+}
+
+a {
+  color: #333;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+header {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: left;
+  margin: 0;
+}
+
+p {
+  line-height: 1.5rem;
+}
+
+#chart {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.toolTip {
+  background: #fff;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  display: none;
+  font-size: 0.75rem;
+  line-height: 1.3em;
+  padding: 0.5rem;
+  position: absolute;
+  text-align: left;
+  width: 202px;
+  z-index: 9999;
+}
+
+
+@media(max-width: 400px) {
+  h1 {
+    font-size: 3rem;
+  }
+  .toolTip {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+  }
+}
